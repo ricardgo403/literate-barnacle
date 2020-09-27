@@ -3,4 +3,7 @@ def mult(a, b):
 
 
 def div(a, b):
-    return a / b
+    if a > b and a > 0:
+        return a / b
+    else:
+        return 0
